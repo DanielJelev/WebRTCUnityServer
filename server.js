@@ -10,7 +10,7 @@ var httpServer = null;
 var httpsServer = null;
 if (config.httpConfig) {
     httpServer = http.createServer();
-    httpServer.listen(config.httpConfig.port, function () { console.log('Listening on ' + httpServer.address().port); });
+    httpServer.listen(config.httpConfig.port || 5000, function () { console.log('Listening on ' + httpServer.address().port); });
 }
 if (config.httpsConfig) {
     httpsServer = https.createServer({
