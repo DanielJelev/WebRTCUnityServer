@@ -17,8 +17,8 @@
             "path": "/"
         },
         {
-            "name": "RealCar",
-            "path": "/realcar"
+            "name": "ChatApp",
+            "path": "/chatapp"
         },
         {
             "name": "CallApp",
