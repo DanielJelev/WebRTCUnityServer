@@ -3,7 +3,7 @@ var config = require("./config.json");
 var http = require('http');
 var https = require('https');
 
-var port = process.env.PORT || 8080;
+var port = 5000
 //setup
 var httpServer = null;
 var httpsServer = null;
